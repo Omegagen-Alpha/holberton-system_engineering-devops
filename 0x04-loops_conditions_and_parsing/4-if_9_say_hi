@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+#Print Holberton School 10 times but the 9th time display Holberton school And then Hi
+x=1
+while [ $x -le 10 ]
+do
+	echo "Holberton School"
+if [ $x -eq 9 ]
+then
+	echo "Hi"
+fi
+	x=$(( x + 1 ))
+done
