@@ -8,7 +8,7 @@ do
 	elif [ $x -eq 8 ]; then
 		echo "good luck"
 	else
-		echo "Hoberton School"
+		echo "Holberton School"
 	fi	
 	x=$(( x + 1 ))
 done
